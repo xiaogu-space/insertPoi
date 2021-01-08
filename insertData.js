@@ -9,6 +9,7 @@ const csv = require('fast-csv');
 const url = 'mongodb://localhost:27017/';
 let allCount = 0;
 let number = 0;
+console.log("开始。。。")
 
 const loadCSV = async function () {
   const pathJson = path.resolve(__dirname, './data/poi_amap_0510.csv');
